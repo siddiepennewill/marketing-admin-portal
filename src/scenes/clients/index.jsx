@@ -4,7 +4,8 @@ import { DataGrid, GridToolbarQuickFilter, GridToolbarExport, GridRowModes } fro
 import { tokens } from "../../theme";
 import Header from "../../components/Header";
 import { useTheme } from "@mui/material";
-import sampleFile from '../../data/SMXP.xlsx'; // Adjust the path as needed
+//import sampleFile from '../../data/SMXP.xlsx'; // Adjust the path as needed
+import sampleFile from '../../data/SMXP-Updated.xlsx'; // Adjust the path as needed
 import * as XLSX from 'xlsx';
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import ClientForm from '../../components/ClientForm'; // Import the new form component
